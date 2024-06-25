@@ -16,7 +16,7 @@ def size_memory(arr):
         print(", at Memory --->", end=" ")
         print(id(arr[i]))
 
-stock_prices = [1,2,3,4,5]
+stock_prices = [1,2,3,4,5,6]
 size_memory(stock_prices)
 stock_prices.insert(3,6)
 size_memory(stock_prices)
